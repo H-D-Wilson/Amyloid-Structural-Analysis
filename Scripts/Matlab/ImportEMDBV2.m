@@ -17,7 +17,7 @@ entry = string(entry);
 apply_preprocessing = false;   % OFF by default
 preprocess_entries = ["23686","23687","23688","23689"];
 
-% -------- Set folder (Optimized with Portable Relative Path) --------
+% -------- Set folder (Optimised with Portable Relative Path) --------
 % Create directory structure relative to the project working directory
 emdbEntryPath = fullfile(pwd, 'data', 'emdb', "EMD_" + entry);
 
