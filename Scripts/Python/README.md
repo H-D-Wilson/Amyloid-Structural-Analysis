@@ -1,19 +1,19 @@
-## Unsupervised Machine Learning Pipeline (Python)
+# Unsupervised Machine Learning Pipeline (Python)
 
-This is the Python pipeline. It precedes the Trace_y part of the workflow; it consists of scripts related to 
+* **This is the Python pipeline. It precedes the Trace_y part of the workflow; it consists of scripts related to 
 unsupervised machine learning, as well as a statistical comparison script. This part of the pipeline has 3 inputs: 
 the raw 3D density maps of the fibrils, the master data set made in MATLAB, as the final output of the Trace_y 
 pipeline and the Cryo-EM cross sections of the fibrils. Each one of these inputs then had two corresponding forms of 
 dimensionality reduction and clustering associated with it, to map amyloid polymorphism across several 
 different data types; these were then statistically compared to one another.
------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## Outputs:
 
-The outputs consisted of 3 different dimensionality reduction scatter graphs and 3 agglomerative 
+* **The outputs consisted of 3 different dimensionality reduction scatter graphs and 3 agglomerative 
 clustering dendrograms. These were then compared with the ARI table, which measured how much these outputs 
 differed from one another.
------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 
 ## Pipeline Scripts:
 
@@ -32,8 +32,8 @@ differed from one another.
 
 ## Cross-Model Validation:
 
-**`Validation_ARI.py`** =  The script validates the different analyses using an **Adjusted Rand Index (ARI)**  to mathematically measure the agreement between the distinct data analyses to see if they reach the same conclusions or differ.
------------------------------------------------------------------------------------------------------------------------------------
+* **`Validation_ARI.py`=  The script validates the different analyses using an **Adjusted Rand Index (ARI)**  to mathematically measure the agreement between the distinct data analyses to see if they reach the same conclusions or differ.
+------------------------------------------------------------------------------------------------------------------------
 
 ## Python libraries:
 
