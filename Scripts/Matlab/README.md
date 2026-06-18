@@ -43,9 +43,8 @@ This folder contains 3 Functions:
 ```text
   ( )
  /   \
-
  | | |
-  | |_
+  | |
 ```
 
 
