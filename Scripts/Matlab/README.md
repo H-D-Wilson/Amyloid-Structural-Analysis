@@ -4,7 +4,7 @@ This directory contains Useful data engineering scripts that were used alongside
 to add to the data pipeline. These scripts act as quality-of-life improvements over standard `Trace_y` 
 functions and assist them by improving data retrieval from public scientific archives (EMDB), standardising 3D 
 coordinate space positioning and automation, and aggregation of raw structural numeric features into a 
-unified matrix for the downstream Python machine learning workflow [H-D-Wilson]. 
+unified matrix for the downstream Python machine learning workflow. 
 
 It's important to note that these Functions are to be used alongside the MATLAB program `Trace_y` 
 and are not a substitute for it
@@ -17,7 +17,7 @@ If you lack this program, you can find it here: [wfxue/Trace_y] (https://github.
 
  These functions are to be used in tandem with `Trace_y`; together, they can retrieve data more consistently and
  inspect and correct it when it's incorrect. Standardises `Trace_y` pipeline processing and can convert many
- multi-modal biological data structures produced by `Trace_y` into a clean, relative schema ready for modelling [H-D-Wilson].
+ multi-modal biological data structures produced by `Trace_y` into a clean, relative schema ready for modelling.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
